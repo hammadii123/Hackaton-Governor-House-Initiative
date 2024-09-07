@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- divinectorweb.com -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+    <div class="container" id="resume">
+        <div class="header">
+            <div class="img-area">
+                <img src="./assets/image.jpg" alt="">
+            </div>
+            <h1 id="display-name">Hammad Mustafa</h1>
+            <h3 id="display-title">Mern Stack Web Developer</h3>
+        </div>
+
+        <div class="main">
+            <div class="left">
+                <h2>Personal Information</h2>
+                <p><strong>Name:</strong> <span id="display-name-info">Hammad Mustafa</span></p>
+                <p><strong>Age:</strong> <span id="display-age">20</span></p>
+                <p><strong>Email:</strong> <span id="display-email" class="email">hammadworks123@gmail.com</span></p>
+                <p><strong>Phone:</strong> <span id="display-phone">0334-0000000</span></p>
+<br>
+
+                <hr>
+                <h2>Skills</h2>
+                <ul id="display-skills">
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>SQL</li>
+                </ul>
+<br>
+
+                <hr>
+                <h2>Education</h2>
+                <h3 id="display-education1">Software Engineering</h3>
+                <p>Sir Syed University Of Engineering And Technology</p> <br>
+                <h3 id="display-education2">Inter in Pre-Engineering</h3>
+                <p>DJ Science College , Karachi</p>
+            </div>
+
+
+
+            <hr class="separator">
+            <div class="right">
+                <h2>Work Experience</h2>
+                <h3 id="display-company1">CodSoft</h3>
+                <p><strong>Position:</strong> <span id="display-position1">Software Developer</span></p>
+                <p><strong>Duration:</strong> <span id="display-duration1">2021-2022</span></p>
+                <ul id="display-responsibilities1">
+                    <li>Built a student Grading Calculator using Oops Concepts</li>
+                    <li>Built the logic for Guuessing the numbers.</li>
+                    <li>Built an ATM interface System.
+                        Built a Quiz game</li>
+                </ul> <br>
+<hr>
+<br>
+                <h3 id="display-company2">Governor House Karachi</h3>
+                <p><strong>Position:</strong> <span id="display-position2">Senior Student</span></p>
+                <p><strong>Duration:</strong> <span id="display-duration2">2023-2024</span></p>
+                <ul id="display-responsibilities2">
+                    <li>Helped students in their queries</li>
+                    <li>Built Projects like : Todo List, Currency convertor etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
